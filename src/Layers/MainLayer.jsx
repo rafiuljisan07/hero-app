@@ -6,7 +6,9 @@ function MainLayer() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <div className="my-16">
+        <Outlet />
+      </div>
       <Footer />
     </>
   )

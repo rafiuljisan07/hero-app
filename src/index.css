@@ -1,7 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-.link-container a.active {
-@apply bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent underline decoration-[#9F62F2]
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.link-container a.active {
+    @apply bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent underline decoration-[#9F62F2]
 }
