@@ -1,0 +1,254 @@
+[
+  {
+    "image": "https://i.ibb.co.com/DDf1gdDj/unnamed-10.webp",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc",
+    "id": 1,
+    "description": "Instagram is a global social media platform that connects people through photos, videos, and stories. It allows users to share their daily moments creatively using filters, reels, and live videos. Businesses can promote brands through ads and insights. The app supports private messaging, group chats, and story highlights for personalization. Instagram’s explore page helps discover trending content and creators worldwide. With smooth navigation, customizable feeds, and smart recommendations, it creates an engaging digital experience where users can express themselves, connect with communities, and stay updated with modern trends every day.",
+    "size": "72MB",
+    "reviews": "152M",
+    "ratingAvg": 4.4,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 320000 },
+      { "name": "2 star", "count": 460000 },
+      { "name": "3 star", "count": 780000 },
+      { "name": "4 star", "count": 1450000 },
+      { "name": "5 star", "count": 6200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Gfg8hxXC/unnamed-4.webp",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms Inc",
+    "id": 2,
+    "description": "WhatsApp Messenger is a secure, free communication app used by billions worldwide. It allows text messaging, voice and video calls, document sharing, and real-time location updates. The app supports group chats, voice notes, and end-to-end encryption for privacy. Users can also send disappearing messages and set custom wallpapers. Its desktop sync keeps conversations accessible across devices. With fast performance, minimal ads, and excellent reliability, WhatsApp remains the most trusted platform for personal and professional communication. It continues evolving with features like communities, channels, and payments for global connectivity and convenience.",
+    "size": "61MB",
+    "reviews": "175M",
+    "ratingAvg": 4.5,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 270000 },
+      { "name": "2 star", "count": 390000 },
+      { "name": "3 star", "count": 910000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 7400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4ZQ3VJ8Z/unnamed-13.webp",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "YouTube is the world’s largest video streaming platform where users can watch, share, and create videos across every category imaginable. It features channels, subscriptions, and live streaming options for creators and audiences alike. The app offers smart recommendations based on watch history and trending topics. Users can download videos, comment, and interact through community posts. With YouTube Premium, users enjoy ad-free viewing and offline downloads. It’s a global hub for learning, entertainment, and creativity, empowering individuals and businesses to reach audiences with visual storytelling and endless content variety.",
+    "size": "89MB",
+    "reviews": "165M",
+    "ratingAvg": 4.3,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 490000 },
+      { "name": "2 star", "count": 710000 },
+      { "name": "3 star", "count": 960000 },
+      { "name": "4 star", "count": 1820000 },
+      { "name": "5 star", "count": 7200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6JmsRkHh/unnamed-9.webp",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc",
+    "id": 4,
+    "description": "Facebook connects friends, families, and communities around the globe. It enables users to share updates, photos, and videos while staying informed with personalized news feeds. The app includes groups, pages, events, and marketplace for buying and selling locally. Live streaming, reactions, and memories help users interact and relive past moments. With enhanced privacy controls and secure login, it remains a leading platform for communication and networking. Facebook bridges personal and professional worlds, giving people a voice, fostering communities, and enabling real-time engagement across billions of users worldwide every day.",
+    "size": "72MB",
+    "reviews": "145M",
+    "ratingAvg": 4.1,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 560000 },
+      { "name": "2 star", "count": 780000 },
+      { "name": "3 star", "count": 1210000 },
+      { "name": "4 star", "count": 1940000 },
+      { "name": "5 star", "count": 6200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/67Qv9fHw/unnamed-6.webp",
+    "title": "TikTok",
+    "companyName": "Byte Dance Ltd",
+    "id": 5,
+    "description": "TikTok is a short-video creation and sharing platform where creativity meets entertainment. Users can create videos with music, effects, and filters in seconds. It offers personalized feeds powered by AI recommendations, showcasing trends, challenges, and viral content. The app supports live streaming, duets, and collaboration between creators. With built-in editing tools, TikTok empowers everyone to become a storyteller. It promotes authentic expression, global connection, and fun discovery across cultures. From dance clips to tutorials, TikTok inspires millions to create, share, and enjoy dynamic, bite-sized video experiences daily.",
+    "size": "88MB",
+    "reviews": "118M",
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 370000 },
+      { "name": "3 star", "count": 640000 },
+      { "name": "4 star", "count": 1230000 },
+      { "name": "5 star", "count": 5100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PGj6vYzd/unnamed-15.webp",
+    "title": "Spotify Music",
+    "companyName": "Spotify AB",
+    "id": 6,
+    "description": "Spotify Music is the world’s leading audio streaming service offering millions of songs, podcasts, and playlists. Users can explore personalized mixes, discover artists, and listen offline with a Premium subscription. It provides curated playlists for every mood, genre, and occasion. The app supports cross-device syncing, collaborative playlists, and high-quality sound options. With smart recommendations and sleek design, Spotify turns listening into a deeply personal experience. Whether for study, workouts, or relaxation, it brings unlimited soundscapes to your fingertips with a seamless, social, and immersive audio journey.",
+    "size": "71MB",
+    "reviews": "114M",
+    "ratingAvg": 4.5,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 310000 },
+      { "name": "3 star", "count": 550000 },
+      { "name": "4 star", "count": 1210000 },
+      { "name": "5 star", "count": 4900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1tFVQjrY/unnamed-7.webp",
+    "title": "X Twitter",
+    "companyName": "X Corp",
+    "id": 7,
+    "description": "X, formerly Twitter, is a social media platform focused on open communication and trending conversations. Users can post updates, share media, and follow global discussions in real time. The app supports spaces for live audio, DMs for private chats, and communities for group engagement. Businesses use it for branding and customer interaction. With an algorithm-driven feed and personalized notifications, X keeps users informed and connected. Its redefined identity embraces freedom of expression, bringing together diverse voices to share thoughts, opinions, and ideas instantly with audiences worldwide.",
+    "size": "67MB",
+    "reviews": "95M",
+    "ratingAvg": 4.2,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 230000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 630000 },
+      { "name": "4 star", "count": 980000 },
+      { "name": "5 star", "count": 3800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VcvdbY9b/unnamed-8.webp",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 8,
+    "description": "Snapchat is a fast and fun communication app for sharing moments with friends using photos and videos called Snaps. It offers creative filters, AR lenses, and Bitmojis for self-expression. Stories disappear after 24 hours, keeping interactions authentic. The app also includes Discover, Spotlight, and Snap Map to explore trends and locations. With privacy-first design and chat encryption, Snapchat ensures safety and fun together. It continues to redefine digital interaction through visual messaging, creativity, and instant storytelling that resonates with younger generations worldwide.",
+    "size": "90MB",
+    "reviews": "120M",
+    "ratingAvg": 4.2,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 260000 },
+      { "name": "2 star", "count": 410000 },
+      { "name": "3 star", "count": 730000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 4200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dwnXCykF/unnamed-5.webp",
+    "title": "Netflix",
+    "companyName": "Netflix Inc",
+    "id": 9,
+    "description": "Netflix is a global entertainment platform offering thousands of movies, series, and documentaries in every genre. Users can stream in HD and 4K, download content for offline viewing, and create multiple profiles. The app personalizes recommendations using advanced algorithms. It supports parental controls and localized subtitles. Netflix originals deliver award-winning content globally. With intuitive navigation, ad-free viewing, and seamless streaming, it remains a leader in digital entertainment. Whether you love thrillers, comedies, or dramas, Netflix provides cinematic experiences anytime, anywhere on any device.",
+    "size": "79MB",
+    "reviews": "105M",
+    "ratingAvg": 4.4,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 640000 },
+      { "name": "4 star", "count": 1150000 },
+      { "name": "5 star", "count": 4800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SwwQCkDS/unnamed-11.webp",
+    "title": "Telegram",
+    "companyName": "Telegram FZ LLC",
+    "id": 10,
+    "description": "Telegram is a fast, secure, and feature-rich messaging app trusted by millions worldwide. It supports large group chats, file sharing up to 2GB, and high-quality video calls. Users can customize themes, create bots, and explore public channels. Cloud-based syncing ensures instant access across devices. With end-to-end encryption and self-destructing messages, privacy is a priority. Telegram also enables secret chats, polls, and stories for more expressive communication. Lightweight yet powerful, it combines speed, style, and safety, making it a go-to platform for both casual and professional users globally.",
+    "size": "53MB",
+    "reviews": "89M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 170000 },
+      { "name": "2 star", "count": 280000 },
+      { "name": "3 star", "count": 510000 },
+      { "name": "4 star", "count": 950000 },
+      { "name": "5 star", "count": 4100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/20gwndTQ/unnamed-14.webp",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc",
+    "id": 11,
+    "description": "Pinterest is a visual discovery platform that inspires creativity through images, videos, and ideas. Users can explore millions of pins on topics like home decor, fashion, recipes, and travel. The app allows saving pins to personal boards for future reference. Its smart recommendations adapt to user interests. Businesses use Pinterest to promote products visually and drive engagement. With a calm interface and inspiration-first design, Pinterest fuels imagination and creativity for everyone. It transforms simple ideas into visual collections that motivate users to create, plan, and dream daily.",
+    "size": "62MB",
+    "reviews": "84M",
+    "ratingAvg": 4.7,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 190000 },
+      { "name": "3 star", "count": 420000 },
+      { "name": "4 star", "count": 850000 },
+      { "name": "5 star", "count": 3700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PGj6vYzd/unnamed-15.webp",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications",
+    "id": 12,
+    "description": "Zoom Cloud Meetings is a reliable video conferencing app that enables users to host meetings, webinars, and virtual events effortlessly. It supports HD video, screen sharing, and background blur for a professional touch. The app works across devices and integrates with calendars for scheduling. With chat, polls, and breakout rooms, it enhances collaboration. Security features like encryption and waiting rooms ensure privacy. Ideal for business, education, and personal use, Zoom makes communication seamless and productive in a digital-first world, connecting millions in real time globally.",
+    "size": "68MB",
+    "reviews": "76M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 140000 },
+      { "name": "2 star", "count": 210000 },
+      { "name": "3 star", "count": 470000 },
+      { "name": "4 star", "count": 920000 },
+      { "name": "5 star", "count": 3400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1GBRjGKx/unnamed-12.webp",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "id": 13,
+    "description": "LinkedIn is the world’s largest professional networking platform connecting people, jobs, and opportunities. Users can create profiles, showcase experience, and apply for jobs globally. The app offers skill learning, company insights, and career advice. Recruiters use LinkedIn to find top talent, while professionals grow their brands and connections. With personalized feeds, live events, and messaging tools, it helps build meaningful relationships. LinkedIn transforms careers through visibility, learning, and community engagement, empowering users to achieve their professional goals and success in today’s competitive market.",
+    "size": "59MB",
+    "reviews": "68M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 110000 },
+      { "name": "2 star", "count": 190000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 810000 },
+      { "name": "5 star", "count": 3100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5X3WYXw8/unnamed-17.webp",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 14,
+    "description": "Amazon Shopping brings millions of products to your fingertips with fast delivery and secure checkout. Users can browse categories, compare prices, and track orders in real time. The app includes exclusive deals, wishlists, and recommendations based on browsing history. Prime members enjoy free shipping and streaming benefits. With barcode scanning, voice search, and 24/7 support, Amazon simplifies online shopping. Its intuitive interface ensures a smooth experience across devices. Trusted globally, Amazon remains the ultimate destination for convenient, reliable, and affordable e-commerce experiences tailored for every shopper.",
+    "size": "66MB",
+    "reviews": "110M",
+    "ratingAvg": 4.5,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 190000 },
+      { "name": "2 star", "count": 260000 },
+      { "name": "3 star", "count": 560000 },
+      { "name": "4 star", "count": 1070000 },
+      { "name": "5 star", "count": 4300000 }
+    ]
+  }
+]
