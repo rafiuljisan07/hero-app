@@ -26,8 +26,8 @@ const StatisticsBanner = () => {
                 <img className='w-full' src={heroImg} alt="" />
             </div>
             <div className=' bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white flex flex-col justify-center items-center py-10'>
-                <h2 className='text-5xl font-bold'>Trusted By Millions, Build For You</h2>
-                <div className='flex gap-10 text-center pt-7'>
+                <h2 className='text-5xl font-bold text-center'>Trusted By Millions, Build For You</h2>
+                <div className='flex flex-col md:flex-row gap-10 text-center pt-7'>
                     {
                         stats.map((stat, i) =>
                             <div key={i}>
