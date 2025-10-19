@@ -1,9 +1,18 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { MdOutlineFileDownload } from 'react-icons/md';
+import { toast, ToastContainer } from 'react-toastify';
 
-const InstalledAppCard = ({ iApp }) => {
+const InstalledAppCard = ({ iApp, setInstalledApps }) => {
     console.log(iApp)
+
+    const handleUninstall = () => {
+        const getFromLS = JSON.parse(localStorage.getItem('installed'));
+        const updatedList = getFromLS.filter(a => a.id !== iApp.id);
+        setInstalledApps(updatedList)
+        localStorage.setItem('installed', JSON.stringify(updatedList));
+        toast.info('Uninstalled')
+    }
     return (
         <div className='bg-white p-3 rounded-xl flex justify-between items-center'>
             <div className='flex gap-5' >
@@ -18,7 +27,7 @@ const InstalledAppCard = ({ iApp }) => {
                 </div>
             </div>
             <div>
-                <button className='btn btn-success font-semibold'>Uninstall</button>
+                <button onClick={handleUninstall} className='btn btn-success font-semibold'>Uninstall</button>
             </div>
         </div>
     );

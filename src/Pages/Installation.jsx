@@ -10,6 +10,19 @@ const Installation = () => {
     }, [])
     console.log(installedApps)
 
+    const sortItem = () => {
+        if (sortOrder === 'ace') {
+            return [...installedApps].sort((a, b) => a.downloads - b.downloads);
+
+        }
+        else if (sortOrder === 'desc') {
+            return [...installedApps].sort((a, b) => b.downloads - a.downloads);
+        }
+        else {
+            return installedApps;
+        }
+    }
+
     return (
         <div className='max-w-screen-xl mx-auto mt-20 '>
             <div className='text-center'>
@@ -24,15 +37,15 @@ const Installation = () => {
                         value={sortOrder}
                         onChange={e => setSortOrder(e.target.value)}
                     >
-                        <option value="none">Sort by Size</option>
-                        <option value="size-ace">Low &gt; High</option>
-                        <option value="size-desc">Low &gt; High</option>
+                        <option value="none">Sort by Download</option>
+                        <option value="ace">Low &gt; High</option>
+                        <option value="desc">High &gt; Low</option>
                     </select>
                 </label>
             </div>
             <div className='flex flex-col gap-4'>
                 {
-                    installedApps.map(iApp => <InstalledAppCard iApp={iApp} key={iApp.id} />)
+                    sortItem().map(iApp => <InstalledAppCard setInstalledApps={setInstalledApps} iApp={iApp} key={iApp.id} />)
                 }
             </div>
         </div>

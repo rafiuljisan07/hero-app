@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import downImg from '../../assets/icon-downloads.png';
 import ratingImg from '../../assets/icon-ratings.png';
 import reviewImg from '../../assets/icon-review.png';
@@ -8,23 +8,22 @@ import { toast, ToastContainer } from 'react-toastify';
 const Overview = ({ targetedData }) => {
     const { image, title, companyName, size, reviews, ratingAvg, downloads } = targetedData;
     const [install, setInstall] = useState(false);
+
     const handleInstallBtn = () => {
+        setInstall(true)
         
         const existingData = JSON.parse(localStorage.getItem('installed'));
         let updatedData = [];
         if (existingData) {
             const isDuplicate = existingData.some(a => a.id === targetedData.id);
             if (isDuplicate) return toast.info('Already Installed')
-                updatedData = [...existingData, targetedData];
-        }
-        else {
+            updatedData = [...existingData, targetedData];
+        } else {
             updatedData.push(targetedData)
         }
-        localStorage.setItem('installed', JSON.stringify(updatedData))
-        
-        install ? '' : toast.success('Installed');
-        setInstall(true);
+        localStorage.setItem('installed', JSON.stringify(updatedData));
 
+        install ? '' : toast.success('Installed');
     }
     return (
         <div className='grid grid-cols-1 md:grid-cols-4 place-items-center gap-5 border-b-2 border-b-gray-300 pb-8'>
@@ -55,9 +54,7 @@ const Overview = ({ targetedData }) => {
                     {
                         install ? <p>Installed</p> : <p>Install Now<span>({size})</span></p>
                     }</button>
-                <div></div>
             </div>
-            <ToastContainer />
         </div>
     );
 };

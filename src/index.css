@@ -12,3 +12,6 @@
     @apply bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent underline decoration-[#9F62F2]
 }
 
+body {
+  background-color: #e7e4e47d;
+}
