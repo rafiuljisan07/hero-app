@@ -4,7 +4,6 @@ import { Bar, BarChart, CartesianGrid, Legend, Rectangle, ResponsiveContainer, T
 
 const Rating = ({ targetedData }) => {
     const { ratings } = targetedData
-    console.log(ratings)
     return (
         <div className='border-b-2 border-b-gray-300'>
         <h1 className='text-2xl font-bold mt-8'>Ratings</h1>

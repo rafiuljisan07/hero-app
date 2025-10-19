@@ -9,11 +9,11 @@ const useApps = () => {
     useEffect(() => {
         setLoading(true)
         axios('/appsData.json')
-        .then(data => setApps(data.data))
-        .catch(err => setError(err))
-        .finally(() => setLoading(false))
+            .then(data => setApps(data.data))
+            .catch(err => setError(err))
+            .finally(() => setLoading(false))
     }, [])
 
-    return [apps]
+    return [apps, loading, error]
 }
 export default useApps

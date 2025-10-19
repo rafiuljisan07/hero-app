@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa';
 import { MdOutlineFileDownload } from 'react-icons/md';
 import { Link } from 'react-router';
 
-const App = ({ app }) => {
+const AppCard = ({ app }) => {
     const { image, title, ratingAvg, downloads } = app;
 
     return (
@@ -13,7 +13,7 @@ const App = ({ app }) => {
                     <h2 className='my-4 font-semibold text-lg'>{title}</h2>
                     <div className='flex justify-between items-center'>
                         <p className='flex gap-1 items-center bg-[#FFF0E1] text-[#FF8811] p-1 px-2 rounded-lg'><FaStar /> {ratingAvg}</p>
-                        <p className='flex gap-1 items-center bg-[#F1F5E8] text-[#00D390] p-1 px-2 rounded-lg'><MdOutlineFileDownload />{downloads}</p>
+                        <p className='flex gap-1 items-center bg-[#F1F5E8] text-[#00D390] p-1 px-2 rounded-lg'><MdOutlineFileDownload />{downloads} M</p>
                     </div>
                 </div>
             </Link>
@@ -21,4 +21,4 @@ const App = ({ app }) => {
     );
 };
 
-export default App;
+export default AppCard;
