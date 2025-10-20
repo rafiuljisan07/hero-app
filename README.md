@@ -24,3 +24,11 @@ The site showcases the company’s services, Created Apps in a clean, minimal, a
 
 ## Live Link:
 https://hero-app-rj.pages.dev/
+
+---
+
+## 🧑‍💻 Author
+
+**Rafiul Islam Jisan**  
+Frontend Developer   
+📧 [rafiuljisan@gmail.com](mailto:rafiuljisan@gmail.com)  
